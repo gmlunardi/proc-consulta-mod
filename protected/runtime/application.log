@@ -1,0 +1,1643 @@
+2014/09/17 01:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings".' in C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('settings')
+#1 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proc-consulta/index.php?r=settings
+---
+2014/09/17 01:37:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setting".' in C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('setting')
+#1 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proc-consulta/index.php?r=setting
+---
+2014/09/17 01:39:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "setting".' in C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('setting')
+#1 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proc-consulta/index.php?r=setting
+---
+2014/09/17 01:39:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings".' in C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('settings')
+#1 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proc-consulta/index.php?r=settings
+---
+2014/09/17 01:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "settings".' in C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('settings')
+#1 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/proc-consulta/index.php?r=settings
+---
+2014/09/17 01:54:04 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:55:15 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:55:16 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:55:50 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:56:01 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:56:02 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:56:56 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:56:57 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:56:58 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:56:58 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:57:16 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:57:17 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 01:57:17 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(17): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:00:05 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:00:05 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:00:06 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:00:06 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:01:24 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:02:01 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:02:51 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:02:52 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:02:52 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:02:56 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:02:57 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:03:11 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:03:12 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:03:12 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:03:12 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:03:12 [error] [exception.CException] exception 'CException' with message 'Alias "path.alias.to.bootstrap.filters.BoosterFilter" is invalid. Make sure it points to an existing directory or file.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('path.alias.to.b...', true)
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(89): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain::create(Object(SiteController), Object(CInlineAction), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#5 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#6 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 C:\xampp\htdocs\proc-consulta\index.php(15): CApplication->run()
+#8 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:07:25 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(15): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:07:59 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(15): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:08:12 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(15): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:08:12 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(15): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:08:13 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(15): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/17 02:08:19 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(15): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/17 02:08:48 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/17 02:08:48 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/17 02:08:49 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/17 02:09:27 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/17 02:09:27 [error] [exception.CException] exception 'CException' with message 'Alias "ext.bootstrap.components.Bootstrap" is invalid. Make sure it points to an existing PHP file and the file is readable.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:11:09 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:12:26 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:16:30 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:17:31 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:18:51 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:18:52 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:18:52 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:18:52 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:19:11 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:19:11 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:19:42 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:19:43 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:19:43 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:19:43 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:21:34 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.src.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.s...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:22:42 [error] [exception.CException] exception 'CException' with message 'O alias "application.extensions.booster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:22:43 [error] [exception.CException] exception 'CException' with message 'O alias "application.extensions.booster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:22:43 [error] [exception.CException] exception 'CException' with message 'O alias "application.extensions.booster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('application.ext...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:23:27 [error] [exception.CException] exception 'CException' with message 'O alias "ext.yiibooster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.yiibooster....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:23:28 [error] [exception.CException] exception 'CException' with message 'O alias "ext.yiibooster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.yiibooster....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:24:44 [error] [exception.CException] exception 'CException' with message 'O alias "ext.yiibooster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.yiibooster....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:24:45 [error] [exception.CException] exception 'CException' with message 'O alias "ext.yiibooster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.yiibooster....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:24:45 [error] [exception.CException] exception 'CException' with message 'O alias "ext.yiibooster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.yiibooster....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=gii
+---
+2014/09/16 21:24:48 [error] [exception.CException] exception 'CException' with message 'O alias "ext.yiibooster.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.yiibooster....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:26:21 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:28:48 [error] [exception.CException] exception 'CException' with message 'Alias "aliased.path.to.booster.directory.and.inside.it.Bootstrap.class" é inválido. Tenha certeza de apontar para um diretório ou arquivo existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('aliased.path.to...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:28:49 [error] [exception.CException] exception 'CException' with message 'Alias "aliased.path.to.booster.directory.and.inside.it.Bootstrap.class" é inválido. Tenha certeza de apontar para um diretório ou arquivo existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:347
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('aliased.path.to...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:33:08 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.Bootstrap.class" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.B...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:33:09 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.Bootstrap.class" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.B...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:33:32 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.assets.Bootstrap.class" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.a...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('bootstrap')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+---
+2014/09/16 21:40:10 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.assets.Bootstrap.class" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.a...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:41:15 [error] [exception.CException] exception 'CException' with message 'O alias "ext.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.Booster', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:41:25 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:41:26 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:45:11 [error] [exception.CException] exception 'CException' with message 'O alias "ext.components.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.components....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:45:11 [error] [exception.CException] exception 'CException' with message 'O alias "ext.components.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.components....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:46:03 [error] [exception.CException] exception 'CException' with message 'O alias "ext.components.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.components....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:46:03 [error] [exception.CException] exception 'CException' with message 'O alias "ext.components.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.components....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:47:23 [error] [exception.CException] exception 'CException' with message 'O alias "ext.components.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.components....', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php?r=site/index
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/page&view=about
+---
+2014/09/16 21:51:47 [error] [exception.CException] exception 'CException' with message 'O alias "ext.bootstrap.components.Booster" é inválido. Assegure-se de que ele aponta para um arquivo PHP existente.' in C:\xampp\htdocs\yii-install\framework\YiiBase.php:322
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\YiiBase.php(196): YiiBase::import('ext.bootstrap.c...', true)
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(386): YiiBase::createComponent(Array)
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CModule->getComponent('booster')
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CModule->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CApplication->__construct('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): YiiBase::createApplication('CWebApplication', 'C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): YiiBase::createWebApplication('C:\\xampp\\htdocs...')
+#7 {main}
+REQUEST_URI=/proc-consulta/index.php
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/login
+---
+2014/09/16 21:57:58 [error] [php] require(C:\xampp\htdocs\proc-consulta\protected\config/../extensions/yii-bootstrap\components/packages.php): failed to open stream: No such file or directory (C:\xampp\htdocs\proc-consulta\protected\extensions\yiibooster4-0-1\components\Booster.php:260)
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\extensions\yiibooster4-0-1\components\Booster.php(214): Booster->includeAssets()
+#1 C:\xampp\htdocs\yii-install\framework\base\CModule.php(387): Booster->init()
+#2 C:\xampp\htdocs\yii-install\framework\base\CModule.php(523): CWebApplication->getComponent()
+#3 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(163): CWebApplication->preloadComponents()
+#4 C:\xampp\htdocs\yii-install\framework\YiiBase.php(125): CWebApplication->__construct()
+#5 C:\xampp\htdocs\yii-install\framework\YiiBase.php(98): createApplication()
+#6 C:\xampp\htdocs\proc-consulta\index.php(14): createWebApplication()
+REQUEST_URI=/proc-consulta/index.php
+in C:\xampp\htdocs\proc-consulta\protected\extensions\yiibooster4-0-1\components\Booster.php (260)
+in C:\xampp\htdocs\proc-consulta\protected\extensions\yiibooster4-0-1\components\Booster.php (260)
+in C:\xampp\htdocs\proc-consulta\protected\extensions\yiibooster4-0-1\components\Booster.php (246)
+2014/09/16 22:30:39 [error] [exception.CException] exception 'CException' with message 'A propriedade "RegionalController.model" não está definida.' in C:\xampp\htdocs\yii-install\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\views\regional\_view.php(14): CComponent->__get('model')
+#1 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(130): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, false)
+#3 C:\xampp\htdocs\yii-install\framework\zii\widgets\CListView.php(291): CBaseController->renderFile('C:\\xampp\\htdocs...', Array)
+#4 C:\xampp\htdocs\yii-install\framework\zii\widgets\CBaseListView.php(167): CListView->renderItems()
+#5 [internal function]: CBaseListView->renderSection(Array)
+#6 C:\xampp\htdocs\yii-install\framework\zii\widgets\CBaseListView.php(150): preg_replace_callback('/{(\\w+)}/', Array, '{summary}\n{sort...')
+#7 C:\xampp\htdocs\yii-install\framework\zii\widgets\CBaseListView.php(135): CBaseListView->renderContent()
+#8 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(173): CBaseListView->run()
+#9 C:\xampp\htdocs\proc-consulta\protected\views\regional\index.php(17): CBaseController->widget('booster.widgets...', Array)
+#10 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#12 C:\xampp\htdocs\yii-install\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#13 C:\xampp\htdocs\yii-install\framework\web\CController.php(782): CController->renderPartial('index', Array, true)
+#14 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(122): CController->render('index', Array)
+#15 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(49): RegionalController->actionIndex()
+#16 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#18 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#19 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#20 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#21 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#22 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#23 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#24 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('')
+#25 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional')
+#26 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#27 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#28 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:30 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('1')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=1
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:30 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('5')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=5
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:30 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('3')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=3
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('2')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=2
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('6')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=6
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('4')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=4
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('7')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=7
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('8')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=8
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('9')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=9
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:31 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('10')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=10
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('4')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=4
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('2')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=2
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('5')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=5
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('3')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=3
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('1')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=1
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('6')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=6
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('7')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=7
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:38 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('8')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=8
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:39 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('9')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=9
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:31:39 [error] [exception.CException] exception 'CException' with message 'RegionalController não pôde encontrar a visualização "image" solicitada.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(167): CController->renderPartial('image', Array)
+#1 [internal function]: RegionalController->actionloadImage('10')
+#2 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#3 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#6 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#8 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#9 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#13 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#14 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage&id=10
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional
+---
+2014/09/16 22:54:15 [error] [exception.CException] exception 'CException' with message 'A propriedade "RegionalController.model" não está definida.' in C:\xampp\htdocs\yii-install\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\proc-consulta\protected\views\regional\view.php(25): CComponent->__get('model')
+#1 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#5 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(52): CController->render('view', Array)
+#6 [internal function]: RegionalController->actionView('1')
+#7 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#8 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#9 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('view')
+#18 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/view')
+#19 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/view&id=1
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional/index
+---
+2014/09/16 22:58:14 [error] [exception.CException] exception 'CException' with message 'O atributo deve ser especificado no formato "Nome:Tipo:Etiqueta", onde "Tipo" e "Etiqueta" são opcionais.' in C:\xampp\htdocs\yii-install\framework\zii\widgets\CDetailView.php:183
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(173): CDetailView->run()
+#1 C:\xampp\htdocs\proc-consulta\protected\views\regional\view.php(28): CBaseController->widget('booster.widgets...', Array)
+#2 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii-install\framework\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii-install\framework\web\CController.php(782): CController->renderPartial('view', Array, true)
+#6 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(52): CController->render('view', Array)
+#7 [internal function]: RegionalController->actionView('1')
+#8 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs(Object(RegionalController), Array)
+#9 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(RegionalController), Object(ReflectionMethod), Array)
+#10 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#13 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#17 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('view')
+#19 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/view')
+#20 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#21 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#22 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/view&id=1
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional/index
+---
+2014/09/16 23:42:58 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Sua requisição é inválida.' in C:\xampp\htdocs\yii-install\framework\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#7 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('loadImage')
+#9 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/loadIm...')
+#10 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/loadImage
+---
+2014/09/17 00:30:18 [error] [php] htmlspecialchars() expects parameter 1 to be string, array given (C:\xampp\htdocs\yii-install\framework\web\helpers\CHtml.php:103)
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\helpers\CHtml.php(158): renderAttributes()
+#1 C:\xampp\htdocs\yii-install\framework\web\helpers\CHtml.php(442): tag()
+#2 C:\xampp\htdocs\proc-consulta\protected\views\regional\view.php(26): image()
+#3 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\yii-install\framework\web\CBaseController.php(95): RegionalController->renderInternal()
+#5 C:\xampp\htdocs\yii-install\framework\web\CController.php(869): RegionalController->renderFile()
+#6 C:\xampp\htdocs\yii-install\framework\web\CController.php(782): RegionalController->renderPartial()
+#7 C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php(52): RegionalController->render()
+#8 unknown(0): RegionalController->actionView()
+#9 C:\xampp\htdocs\yii-install\framework\web\actions\CAction.php(108): ReflectionMethod->invokeArgs()
+#10 C:\xampp\htdocs\yii-install\framework\web\actions\CInlineAction.php(47): CInlineAction->runWithParamsInternal()
+#11 C:\xampp\htdocs\yii-install\framework\web\CController.php(308): CInlineAction->runWithParams()
+#12 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(133): RegionalController->runAction()
+#13 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#15 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): RegionalController->filterAccessControl()
+#16 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#17 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): RegionalController->runActionWithFilters()
+#19 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): RegionalController->run()
+#20 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#21 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\proc-consulta\index.php(14): CWebApplication->run()
+REQUEST_URI=/proc-consulta/index.php?r=regional/view&id=1
+in C:\xampp\htdocs\proc-consulta\protected\views\regional\view.php (26)
+in C:\xampp\htdocs\proc-consulta\protected\controllers\RegionalController.php (52)
+in C:\xampp\htdocs\proc-consulta\index.php (14)
+2014/09/17 01:00:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'Você não está autorizado a realizar essa operação.' in C:\xampp\htdocs\yii-install\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'Voc\xC3\xAA n\xC3\xA3o est\xC3...')
+#1 C:\xampp\htdocs\yii-install\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\xampp\htdocs\yii-install\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\xampp\htdocs\yii-install\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii-install\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii-install\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\xampp\htdocs\yii-install\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('regional/admin')
+#9 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/proc-consulta/index.php?r=regional/admin
+HTTP_REFERER=http://localhost/proc-consulta/index.php?r=site/login
+---
