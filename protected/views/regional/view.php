@@ -1,30 +1,28 @@
-<?php
+<?php  #$this eh o meu controller aqui
 $this->breadcrumbs=array(
-	'Regionals'=>array('index'),
-	$model->id,
-);
-
-$this->menu=array(
-array('label'=>'List Regional','url'=>array('index')),
-array('label'=>'Create Regional','url'=>array('create')),
-array('label'=>'Update Regional','url'=>array('update','id'=>$model->id)),
-array('label'=>'Delete Regional','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-array('label'=>'Manage Regional','url'=>array('admin')),
+	'Regional'=>array('pesquisa'),
+	$model->sigla,
 );
 ?>
 
-<h1>View Regional #<?php echo $model->id; ?></h1>
+<h1><?php echo $model->nome_associacao; ?></h1>
 
-<?php $this->widget('booster.widgets.TbDetailView',array(
-'data'=>$model,
-'attributes'=>array(
-		'id',
+<?php $this->widget('bootstrap.widgets.TbDetailView',array(
+'data' => $model,
+'attributes' => array(
 		'sigla',
 		'nome_associacao',
                 array(
-                  //'name' => 'img',
-                    'type' => 'raw',
-                   'value' => CHtml::image(Yii::app()->getBaseUrl(true).'/images/'.$model->sigla.'.png')
+                'name' => 'Municipios',
+                'type' => 'raw',
+                'value' => $this->printaMunicipios($model->id)
+                ),
+                array(
+                  'name' => 'img',
+                  'type' => 'raw',
+                  'value' => CHtml::image(Yii::app()->getBaseUrl(true).'/images/'.$model->sigla.'.png')
                 )  
+                
 ),
-)); ?>
+)) ?>
+

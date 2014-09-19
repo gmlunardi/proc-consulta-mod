@@ -3,7 +3,7 @@
 // uncomment the following to define a path alias
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
-Yii::setPathOfAlias('booster', dirname(__FILE__).'/../extensions/yiibooster4-0-1');
+Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/yii-bootstrap');
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
@@ -18,7 +18,6 @@ return array(
 	// preloading 'log' component
 	'preload'=>array(
             'log',
-            'booster'
         ),
 
 	// autoloading model and component classes
@@ -36,7 +35,7 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
                         'generatorPaths'=>array(
-                             'booster.gii', // boostrap generator
+                             'bootstrap.gii', // boostrap generator
                         ),
 		),
 
@@ -47,8 +46,8 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
-                'booster'=>array(
-                   'class'=>'booster.components.Booster',
+                'bootstrap'=>array(
+                   'class'=>'bootstrap.components.Bootstrap',
                 ),
 		// uncomment the following to enable URLs in path-format
 		/*

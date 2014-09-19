@@ -32,9 +32,6 @@ class Regional extends CActiveRecord
 		return array(
 			array('sigla', 'length', 'max'=>10),
 			array('nome_associacao', 'length', 'max'=>80),
-			array('img', 'file',
-                            'types' => 'jpg, gif, png, bmp, jpeg',
-                         ),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
 			array('id, sigla, nome_associacao', 'safe', 'on'=>'search'),
@@ -62,7 +59,7 @@ class Regional extends CActiveRecord
 			'id' => 'ID',
 			'sigla' => 'Sigla',
 			'nome_associacao' => 'Nome da Associação',
-			'img' => 'Imagem da Regional',
+			'img' => 'Mapa da Regional',
 		);
 	}
 
@@ -104,4 +101,6 @@ class Regional extends CActiveRecord
 	{
 		return parent::model($className);
 	}
+        
+
 }

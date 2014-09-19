@@ -1,20 +1,46 @@
 <?php
 /* @var $this SiteController */
 
-$this->pageTitle=Yii::app()->name;
+$this->pageTitle = Yii::app()->name;
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
+<h1>Bem-Vindo ao <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
 
-<p>Congratulations! You have successfully created your Yii application.</p>
+<p>Aqui você poderá consultar quem já participou do curso do Pró-Conselho/UFSM.</p>
 
-<p>You may change the content of this page by modifying the following two files:</p>
+<p>Você pode realizar a consulta através de duas opções:</p>
 <ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
+    <li><b>por município:</b> será mostrada uma listagem de quem participou do curso no município selecionado.</li>
+    <li><b>por regional:</b> será mostrado o total de concluintes na regional bem como uma listagem dos municípios com seu respectivo total de concluintes.</li>
 </ul>
 
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<p>Escolha um dos botões abaixo no qual deseja realizar a pesquisa.</p>
+
+<div id="botoes-pesquisa1">
+    <?php
+    $this->widget('bootstrap.widgets.TbButton', array(
+        'buttonType' => 'link',
+        'url' => $this->createAbsoluteUrl('municipio/index'),
+        'type' => 'primary',
+        'label' => 'Pesquisar por Município',
+        'icon' => 'glyphicon glyphicon-stats',
+        'size' => 'normal'
+            )
+    );
+    ?>
+</div>
+<br/>
+<div id="botoes-pesquisa2">
+    <?php
+    $this->widget('bootstrap.widgets.TbButton', array(
+        'type' => 'info',
+        'buttonType' => 'link',
+        'url' => $this->createAbsoluteUrl('regional/pesquisa'),
+        'label' => 'Pesquisar por Regional',
+        'icon' => 'glyphicon glyphicon-asterisk',
+            )
+    );
+    ?>
+</div>
+
+

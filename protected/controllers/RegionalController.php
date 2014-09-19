@@ -6,7 +6,7 @@ class RegionalController extends Controller {
      * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
      * using two-column layout. See 'protected/views/layouts/column2.php'.
      */
-    public $layout = '//layouts/column2';
+    public $layout = '//layouts/column1';
 
     /**
      * @return array action filters
@@ -25,7 +25,7 @@ class RegionalController extends Controller {
     public function accessRules() {
         return array(
             array('allow', // allow all users to perform 'index' and 'view' actions
-                'actions' => array('index', 'view', 'loadImage'),
+                'actions' => array('index', 'view', 'pesquisa'),
                 'users' => array('*'),
             ),
             array('allow', // allow authenticated user to perform 'create' and 'update' actions
@@ -159,6 +159,24 @@ class RegionalController extends Controller {
         }
     }
     
-
+    public function actionPesquisa(){
+        
+        $model = new Regional;
+        
+        if (isset($_POST['Regional'])) {
+            $model->id = $_POST['Regional']['id'];
+            $this->redirect(array('view', 'id' => $model->id));
+        }
+        $this->render('pesquisa', array('model' => $model));
+    }
+    
+    public function printaMunicipios($id){
+        $variosMuni = Municipio::model()->findAllByAttributes(array('regional_id' => $id));
+        $resultShow = '';
+        foreach ($variosMuni AS $mun){
+            $resultShow .= $mun->nome.'<br/>';
+        }
+        return $resultShow;
+    }
 
 }
