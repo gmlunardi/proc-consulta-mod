@@ -11,7 +11,7 @@ array('label'=>'Manage Municipio','url'=>array('admin')),
 
 <h1>Municipios</h1>
 
-<?php $this->widget('booster.widgets.TbListView',array(
+<?php $this->widget('bootstrap.widgets.TbListView',array(
 'dataProvider'=>$dataProvider,
 'itemView'=>'_view',
 )); ?>

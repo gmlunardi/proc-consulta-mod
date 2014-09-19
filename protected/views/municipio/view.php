@@ -1,25 +1,28 @@
 <?php
 $this->breadcrumbs=array(
-	'Municipios'=>array('index'),
-	$model->id,
-);
+	'Municipios'=>array('pesquisa'),
+	$model->nome,
+); ?>
 
-$this->menu=array(
-array('label'=>'List Municipio','url'=>array('index')),
-array('label'=>'Create Municipio','url'=>array('create')),
-array('label'=>'Update Municipio','url'=>array('update','id'=>$model->id)),
-array('label'=>'Delete Municipio','url'=>'#','linkOptions'=>array('submit'=>array('delete','id'=>$model->id),'confirm'=>'Are you sure you want to delete this item?')),
-array('label'=>'Manage Municipio','url'=>array('admin')),
-);
-?>
+<h1>View Municipio <?php echo $model->id; ?></h1>
 
-<h1>View Municipio #<?php echo $model->id; ?></h1>
-
-<?php $this->widget('booster.widgets.TbDetailView',array(
+<?php $this->widget('bootstrap.widgets.TbDetailView',array(
 'data'=>$model,
 'attributes'=>array(
-		'id',
 		'nome',
-		'regional_id',
+		array(
+                    'name' => 'Regional',
+                    'value' => Regional::model()->findByPk($model->regional_id)->sigla.' - '. Regional::model()->findByPk($model->regional_id)->nome_associacao
+                ),
+                array(
+                    'name' => 'Concluintes 1 Edicao',
+                    'type' => 'raw',
+                    'value' => $this->printaCursistas($model->id, '1')
+                ),
+                array(
+                    'name' => 'Concluintes 2 Edicao',
+                    'type' => 'raw',
+                    'value' => $this->printaCursistas($model->id, '2')
+                )
 ),
 )); ?>

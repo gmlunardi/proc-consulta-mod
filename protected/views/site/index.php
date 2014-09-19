@@ -20,7 +20,7 @@ $this->pageTitle = Yii::app()->name;
     <?php
     $this->widget('bootstrap.widgets.TbButton', array(
         'buttonType' => 'link',
-        'url' => $this->createAbsoluteUrl('municipio/index'),
+        'url' => $this->createAbsoluteUrl('municipio/pesquisa'),
         'type' => 'primary',
         'label' => 'Pesquisar por Município',
         'icon' => 'glyphicon glyphicon-stats',
