@@ -16,7 +16,7 @@ $this->pageTitle = Yii::app()->name;
 
 <p>Escolha um dos botões abaixo no qual deseja realizar a pesquisa.</p>
 
-<div id="botoes-pesquisa1">
+
     <?php
     $this->widget('bootstrap.widgets.TbButton', array(
         'buttonType' => 'link',
@@ -28,9 +28,9 @@ $this->pageTitle = Yii::app()->name;
             )
     );
     ?>
-</div>
-<br/>
-<div id="botoes-pesquisa2">
+
+&nbsp;
+
     <?php
     $this->widget('bootstrap.widgets.TbButton', array(
         'type' => 'info',
@@ -41,6 +41,6 @@ $this->pageTitle = Yii::app()->name;
             )
     );
     ?>
-</div>
+
 
 

@@ -15,13 +15,13 @@ $form = $this->beginWidget('bootstrap.widgets.TbActiveForm', array(
     <?php ?>
     
     <?php 
-        $municipios = CHtml::listData(Municipio::model()->findAll(), 'id', 'nome');  
+        $municipios = CHtml::listData(Municipio::model()->findAll(), 'id', 'nome');
         echo $form->dropDownListRow($model, 'id', $municipios);
         
     ?>
-
+<div class="form-actions">
     <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType' => 'link', 'label' => 'Voltar', 'icon' => 'icon-chevron-left', 'url' => Yii::app()->baseUrl));?>
     <?php $this->widget('bootstrap.widgets.TbButton', array('buttonType' => 'submit', 'label' => 'Pesquisar', 'icon' => 'icon-search'));?>
-    
+</div>    
 
 <?php $this->endWidget(); ?>

@@ -2,6 +2,7 @@
 
 class SiteController extends Controller
 {
+    public $layout = '//layouts/column2';
 	/**
 	 * Declares class-based actions.
 	 */
@@ -107,9 +108,4 @@ class SiteController extends Controller
 		$this->redirect(Yii::app()->homeUrl);
 	}
         
-       /* public function filters() {
-            return array(
-                array('path.alias.to.bootstrap.filters.BoosterFilter - delete')
-            );
-        }*/
 }

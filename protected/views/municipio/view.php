@@ -1,10 +1,10 @@
 <?php
-$this->breadcrumbs=array(
-	'Municipios'=>array('pesquisa'),
-	$model->nome,
-); ?>
 
-<h1>View Municipio <?php echo $model->id; ?></h1>
+
+
+?>
+
+<h1><?php echo $model->nome; ?></h1>
 
 <?php $this->widget('bootstrap.widgets.TbDetailView',array(
 'data'=>$model,
@@ -15,14 +15,16 @@ $this->breadcrumbs=array(
                     'value' => Regional::model()->findByPk($model->regional_id)->sigla.' - '. Regional::model()->findByPk($model->regional_id)->nome_associacao
                 ),
                 array(
-                    'name' => 'Concluintes 1 Edicao',
+                    'name' => 'Concluintes 1ª Edição',
                     'type' => 'raw',
                     'value' => $this->printaCursistas($model->id, '1')
                 ),
                 array(
-                    'name' => 'Concluintes 2 Edicao',
+                    'name' => 'Concluintes 2ª Edição',
                     'type' => 'raw',
                     'value' => $this->printaCursistas($model->id, '2')
                 )
 ),
 )); ?>
+
+<?php  $this->widget('bootstrap.widgets.TbButton', array('buttonType' => 'link', 'label' => 'Voltar', 'icon' => 'icon-chevron-left', 'url' => 'index.php?r=municipio/pesquisa')) ?>

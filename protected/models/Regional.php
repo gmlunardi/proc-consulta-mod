@@ -56,7 +56,7 @@ class Regional extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
+			'id' => 'Regional',
 			'sigla' => 'Sigla',
 			'nome_associacao' => 'Nome da Associação',
 			'img' => 'Mapa da Regional',

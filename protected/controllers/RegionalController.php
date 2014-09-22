@@ -6,7 +6,7 @@ class RegionalController extends Controller {
      * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
      * using two-column layout. See 'protected/views/layouts/column2.php'.
      */
-    public $layout = '//layouts/column1';
+    public $layout = '//layouts/column2';
 
     /**
      * @return array action filters
@@ -170,13 +170,27 @@ class RegionalController extends Controller {
         $this->render('pesquisa', array('model' => $model));
     }
     
+    public function contCursistas($id){
+        $variosMuni = Municipio::model()->findAllByAttributes(array('regional_id' => $id));
+        $cont = 0;
+        foreach ($variosMuni AS $mun){
+            $cont = $cont + Cursista::model()->countByAttributes(array('municipio_id' => $mun->id));
+        }
+        return $cont;
+    }
+    
     public function printaMunicipios($id){
         $variosMuni = Municipio::model()->findAllByAttributes(array('regional_id' => $id));
-        $resultShow = '';
+        $result = '';
         foreach ($variosMuni AS $mun){
-            $resultShow .= $mun->nome.'<br/>';
+            if (Cursista::model()->exists('municipio_id = :municipio_id', array('municipio_id' => $mun->id))){
+                $modelo = $mun;
+                $result .= $mun->nome.'<br />';
+            }
         }
-        return $resultShow;
+        if (empty($modelo))
+            $result = 'Não existem municípios concluintes ainda.';
+        return $result;
     }
 
 }

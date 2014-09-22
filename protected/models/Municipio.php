@@ -58,7 +58,7 @@ class Municipio extends CActiveRecord
 	public function attributeLabels()
 	{
 		return array(
-			'id' => 'ID',
+			'id' => 'Município',
 			'nome' => 'Nome do Município',
 			'regional_id' => 'Regional do Município',
 		);
