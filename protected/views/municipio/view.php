@@ -15,14 +15,14 @@
                     'value' => Regional::model()->findByPk($model->regional_id)->sigla.' - '. Regional::model()->findByPk($model->regional_id)->nome_associacao
                 ),
                 array(
-                    'name' => 'Concluintes 1ª Edição',
+                    'label' => 'Concluintes 1ª Edição',
                     'type' => 'raw',
                     'value' => $this->printaCursistas($model->id, '1')
                 ),
                 array(
-                    'name' => 'Concluintes 2ª Edição',
+                    'label' => 'Concluintes 2ª Edição',
                     'type' => 'raw',
-                    'value' => $this->printaCursistas($model->id, '2')
+                    'value' => $this->printaCursistas($model->id, '2-1')
                 )
 ),
 )); ?>
