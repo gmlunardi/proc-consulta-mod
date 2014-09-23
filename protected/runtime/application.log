@@ -4607,3 +4607,11 @@ Stack trace:
 REQUEST_URI=/proc-consulta/
 HTTP_REFERER=http://localhost/proc-consulta/index.php?r=regional/pesquisa
 ---
+2014/09/23 13:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Não foi possível resolver a requisição "contato".' in C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii-install\framework\web\CWebApplication.php(141): CWebApplication->runController('contato')
+#1 C:\xampp\htdocs\yii-install\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\proc-consulta\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/proc-consulta/index.php?r=contato
+---

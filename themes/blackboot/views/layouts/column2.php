@@ -16,7 +16,7 @@
                                                 'text' => 'Estatísticas Gerais'
                                             ),
                                             'xAxis' => array(
-                                                'categories' => ['Edição']
+                                                'categories' => array('Edições')
                                             ),
                                             'yAxis' => array(
                                                 'title' => array(
@@ -24,18 +24,11 @@
                                                 )
                                             ),
                                             'series' => array(
-                                            [
-                                                'name' => '1ª edição',
-                                                'data' => [(int)$total1]
-                                            ],
-                                            [
-                                                'name' => '2ª edição',
-                                                'data' => [(int)$total2]
-                                            ],
+                                                array('name' => '1ª Edição', 'data' => array((int)$total1)),
+                                                array('name' => '2ª Edição', 'data' => array((int)$total2))
                                             )
                                         )
-
-                                        )
+                                    )
                             );
                        ?>
 
