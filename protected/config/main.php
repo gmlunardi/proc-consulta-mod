@@ -4,6 +4,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 Yii::setPathOfAlias('bootstrap', dirname(__FILE__).'/../extensions/yii-bootstrap');
+Yii::setPathOfAlias('booster', dirname(__FILE__).'/../extensions/yiibooster4');
 
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
@@ -18,6 +19,7 @@ return array(
 	// preloading 'log' component
 	'preload'=>array(
             'log',
+            'booster'
         ),
 
 	// autoloading model and component classes
@@ -48,6 +50,9 @@ return array(
 		),
                 'bootstrap'=>array(
                    'class'=>'bootstrap.components.Bootstrap',
+                ),
+                'booster' => array(
+                    'class' => 'booster.components.Booster'
                 ),
 		// uncomment the following to enable URLs in path-format
 		/*

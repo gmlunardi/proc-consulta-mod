@@ -4,21 +4,41 @@
          <?php
 			$this->beginWidget('zii.widgets.CPortlet') ?>
             
-                            <img src="<?php echo Yii::app()->getBaseUrl().'/'?>images/logoOficial.png"/>
-                            <br/><br/>
-                            <div style="text-align: center"><h2>Estatísticas Gerais</h2>
-                            
-                            <h4>
-                           
-                                Total 1ª Edição: <?php echo Cursista::model()->countByAttributes(array('edicao' => '1'))?> cursistas.<br/>
-                                
-                                Total 2ª Edição: <?php echo Cursista::model()->countByAttributes(array('edicao' => '2-1'))?> cursistas.
-                          
-                            </h4>
-                                </div>
-                                
-                                
-                            
+                       <?php 
+                       $total1 = Cursista::model()->countByAttributes(array('edicao' => '1'));
+                       $total2 = Cursista::model()->countByAttributes(array('edicao' => '2-1'));
+                            $this->widget('booster.widgets.TbHighCharts', array(
+                                        'options' => array(
+                                            'chart' => array(
+                                                'type' => 'column'
+                                            ),
+                                            'title' => array(
+                                                'text' => 'Estatísticas Gerais'
+                                            ),
+                                            'xAxis' => array(
+                                                'categories' => ['Edição']
+                                            ),
+                                            'yAxis' => array(
+                                                'title' => array(
+                                                    'text' =>  'nº de cursistas concluintes',
+                                                )
+                                            ),
+                                            'series' => array(
+                                            [
+                                                'name' => '1ª edição',
+                                                'data' => [(int)$total1]
+                                            ],
+                                            [
+                                                'name' => '2ª edição',
+                                                'data' => [(int)$total2]
+                                            ],
+                                            )
+                                        )
+
+                                        )
+                            );
+                       ?>
+
 			<?php $this->endWidget(); ?>
 		
 		</div><!-- sidebar span3 -->
